@@ -133,10 +133,10 @@ Baby.prototype.play = function() {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Windlow/Global Object Binding: In the global scope of things, the global object contains variables & functions that can be accessed from anywhere.
+  2. Implicit binding: When a dot (.) calls a function, that object that is being requested in the context of the function invocation. 
+  3. New binding: Whenever we use a constructor function,"this" refers to the specific instance of the object that is created and returned by the constructor function
+  4. Explicit binding: When we call or apply that make "this" explicitly defined. 
 */
 
 
